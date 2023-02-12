@@ -4,29 +4,173 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saurav PortFolio</title>
+    <title>Saurav's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+         <!-- Font Awesome icons -->
+         <script src="https://kit.fontawesome.com/74a09fc8b8.js" crossorigin="anonymous"></script>
+         <!-- Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+           <!-- Ionicons -->
+       <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+       <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>   
 </head>
 <body>
-    <div class="whole_container">
+    <div class="whole-container">
         <header class="header">
             <!-- Logo -->
-    <div class="header__logo">
-     <h1>Saurav</h1>
-    </div>
-          <!-- Navigation menu -->
-    <nav class="header__nav">
-        <ul class="header__nav-list">
-            <li class="header__nav-item"><a href="#">Home</a></li>
-            <li class="header__nav-item"><a href="#">About</a></li>
-            <li class="header__nav-item"><a href="#">Skills</a></li>
-            <li class="header__nav-item"><a href="#">Work</a></li>
-            <li class="header__nav-item"><a href="#">Contact</a></li>
-        </ul>
-    </nav>
+            <div class="header__logo">
+                <h1>Saurav</h1>
+            </div>
+            <!-- Navigation menu -->
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item"><a href="#home">Home</a></li>
+                    <li class="header__nav-item"><a href="#about">About</a></li>
+                    <li class="header__nav-item"><a href="#skills">Skills</a></li>
+                    <li class="header__nav-item"><a href="#projects">Projects</a></li>
+                    <li class="header__nav-item"><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
         </header>
-    </div>
-    <section>
-        <h1>Hii,<br> I'm We</h1>
+       <!-- Hero section -->
+        <section class="hero" id="home">
+            <div class="hero__inner">
+                <div class="hero__text-container">
+                    <!-- Heading -->
+                    <h1>Hi there,<br> I'm <span>Saurav Pant</span></h1>
+                    <!-- Subheading -->
+                    <h3>Web Developer</h3>
+                </div>
+                <!-- Image container -->
+                <div class="hero__image-container">
+                    <img src="https://f.hubspotusercontent40.net/hubfs/6062099/agency.png" alt="Saurav Pant">
+                </div>
+            </div>
+        </section>
+
+<!-- About section  -->
+
+    <section class="about" id="about">
+        <h1 class="all_titles">About</h1>
+        <div class="about__inner">
+            <!-- Container for image -->
+            <div class="about__image-container">
+                <img src="https://avatars.githubusercontent.com/u/103263909?s=96&v=4" alt="About Saurav Pant">
+            </div>
+            <!-- Container for text -->
+            <div class="about__text-container">
+                <!-- Description -->
+                <p> I am an enthusiastic self-taught web developer, constantly seeking new challenges and learning opportunities. I am dedicated to using technology to create simple, effective solutions, and I am particularly interested in exploring the field of web3.</p>
+                <!-- Resume button -->
+                <button>Resume</button>
+            </div>
+        </div>
     </section>
-</body>
-</html>
+
+        <!-- Skills section  -->
+    <section class="skills" id="skills">
+        <h2 class="all_titles">Skills</h2>
+        <!-- List of skills -->
+        <ul class="skills__list">
+            <!-- HTML skill -->
+            <li class="skills__item">
+                <h3>HTML</h3>
+                <!-- HTML skill progress bar -->
+                <div class="skills__bar skills__bar--html" style="width: 60%">
+                    <!-- HTML skill percentage -->
+                    <span class="skills__percentage">90%</span>
+                </div>
+            </li>
+            <!-- CSS skill -->
+            <li class="skills__item">
+                <h3>CSS</h3>
+                <!-- CSS skill progress bar -->
+                <div class="skills__bar skills__bar--css" style="width: 80%">
+                    <!-- CSS skill percentage -->
+                    <span class="skills__percentage">80%</span>
+                </div>
+            </li>
+            <!-- JavaScript skill -->
+            <li class="skills__item">
+                <h3>JavaScript</h3>
+                <!-- JavaScript skill progress bar -->
+                <div class="skills__bar skills__bar--javascript" style="width: 60%">
+                    <!-- JavaScript skill percentage -->
+                    <span class="skills__percentage">60%</span>
+                </div>
+            </li>
+            <!-- Python skill -->
+            <li class="skills__item">
+                <h3>Python</h3>
+                <!-- Python skill progress bar -->
+                <div class="skills__bar skills__bar--python" style="width: 60%">
+                    <!-- Python skill percentage -->
+                    <span class="skills__percentage">60%</span>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+            <!-- Projects Section -->
+    <section id="projects">
+        <h2 class="all_titles">Projects</h2>
+        <div class="project_container">
+            <div class="project">
+                <!-- First project - To do App -->
+                <img src="https://png.pngtree.com/png-vector/20190727/ourmid/pngtree-business-work-to-do-list-png-image_1635099.jpg" alt="First Project Image">
+                <h1>To do App</h1>
+            </div>
+            <div class="project">
+                <!-- Second project - Weather App -->
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTW9R3TQ9t-G5UN2WbaQA8_69sDwT9tAjlaSxc3He2Q5LnCC_83dP-mQDJIxLGNhaUmuA&usqp=CAU" alt="Second Project Image">
+                <h1>Weather App</h1>
+            </div>
+            <div class="project">
+                <!-- Third project - Music Player -->
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-ARYgs6Vy2aFiDcR5nBZe7tzXbWKq7WSTseSB7rCZ--eLT1A1hqFg5YJPGlPH-nj1nCQ&usqp=CAU" alt="Third Project Image">
+                <h1>Music Player</h1>
+            </div>
+            <div class="project">
+                <!-- Fourth project - Expense Tracker -->
+                <img src="https://cdn.dribbble.com/users/5031392/screenshots/14769358/media/2d2075e253127baa1f95e120cb75deb4.png?compress=1&resize=400x300" alt="Fourth Project Image">
+                <h1>Expense Tracker</h1>
+            </div>
+        </div>
+    </section>
+        <footer class="footer" id="contact">
+            <!-- Social Media Icons -->
+            <ul class="social-icon">
+              <li class="social-icon__item">
+                <a class="social-icon__link" href="#Contact">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+              <li class="social-icon__item">
+                <a class="social-icon__link" href="#Contact">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+              <li class="social-icon__item">
+                <a class="social-icon__link" href="#Contact">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+            </li>
+              <li class="social-icon__item">
+                <a class="social-icon__link" href="#Contact">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+            </li>
+            </ul>
+              <!-- Site Navigation Menu -->
+            <ul class="menu">
+              <li class="menu__item"><a class="menu__link" href="#home">Home</a></li>
+              <li class="menu__item"><a class="menu__link" href="#about">About</a></li>
+              <li class="menu__item"><a class="menu__link" href="#skills">Skills</a></li>
+              <li class="menu__item"><a class="menu__link" href="#projects">Projects</a></li>
+              <li class="menu__item"><a class="menu__link" href="#contact">Contact</a></li>
+            </ul>
+          </footer>   
+    </div>
+    </body>
+    </html>
