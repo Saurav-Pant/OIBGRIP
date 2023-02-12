@@ -4,7 +4,9 @@ body {
     margin: 0;
     padding: 0;
 }
+
 /* Header Section */
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -61,6 +63,7 @@ body {
   }
 
   /* Hero Section */
+
 .hero {
     display: flex;
     justify-content: center;
@@ -288,6 +291,56 @@ body {
     margin: 0;
   }
 
+  /*Contact Section  */
+
+  .contact-form {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    height: 90vh;
+  }
+  .contact_msg{
+    font-size: 18px;
+    font-weight: bold;
+
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  button[type="submit"]:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+
+  }
+  
  /* Footer Section */
  .footer {
     position: relative;
@@ -371,5 +424,9 @@ body {
     }
     .skills{
       height: 40vh;
+    }
+    .contact-form{
+      width: 90vw;
+      height: 90vh;
     }
   }
